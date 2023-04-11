@@ -1,0 +1,87 @@
+header{
+    display: flex;
+     height: 10%;
+}
+
+#heaNav{
+    width: 100%;
+    display: flex;
+    height: 20%;
+}
+a{
+    background: #404040;
+    mix-blend-mode: screen;
+    font-size: 75px;
+    text-align: center;
+    color: #FFFFFF;
+    flex-basis: 100%;
+    border: 5px solid #737373;
+    text-decoration: none;
+}
+body{
+    background-color: #262626;
+    color: #FFFFFF;
+    font-family: 'Lustria';
+}
+main{
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+form{
+    flex-basis: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    background-color: #404040;
+}
+datalist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    writing-mode: vertical-lr;
+    width: 90%;
+}
+  
+option {
+    padding: 0;
+    
+}
+  
+input[type="range"] {
+    width: 90%;
+    margin: 0;
+    color: #FFFFFF;
+    border: 5px solid #737373;
+    background-color: #D9D9D9;
+    border-radius: 5%;
+}
+#submit{
+    flex-basis: 70px;
+}
+
+input[type="text"] {
+    width: 50%;
+    height: 15%;
+    margin: 0;
+    color: #000000;
+    border: 5px solid #737373;
+    border-radius: 5%;
+    background-color: #D9D9D9;
+}
+p{
+    margin: 10px;
+}
+h1{
+    margin: 10px;
+}
+h2{
+    margin: 10px;
+}
+h4{
+    margin: 10px;
+}

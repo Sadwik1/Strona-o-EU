@@ -1,0 +1,40 @@
+header{
+    display: flex;
+     height: 10%;
+}
+
+#heaNav{
+    width: 100%;
+    display: flex;
+    height: 20%;
+}
+a{
+    background: #404040;
+    mix-blend-mode: screen;
+    font-size: 75px;
+    text-align: center;
+    color: #FFFFFF;
+    flex-basis: 100%;
+    border: 5px solid #737373;
+    text-decoration: none;
+}
+body{
+    background-color: #262626;
+    color: #FFFFFF;
+    font-family: 'Lustria';
+}
+main{
+
+    font-size: 30px;
+    text-align: center;
+    margin: 30%;
+    margin-top: 5%;
+    border-radius: 5%;
+    background-color: #404040;
+}
+h2{
+    font-size: 50px;
+}
+h4{
+    font-size: 35px;
+}

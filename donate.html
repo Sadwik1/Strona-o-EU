@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Dstyle.css">
+</head>
+<body>
+    <header>
+        
+       
+    <nav id="heaNav">
+        <a href="About.html">About IRS</a> 
+        <a href="index.html">Your Article</a> 
+        <a href="Contact.html">Contact</a>
+    </nav>
+</header>
+<main>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" value="Doe"><br>
+        <section>
+        <input type="radio" id="male" name="sex" value="M">
+        <label for="male">male</label>
+        <input type="radio" id="female" name="sex" value="F">
+        <label for="female">female</label>
+        </section><br>
+        <section>
+        <input type="checkbox" id="MC" name="MasterCard" value="MC">
+        <label for="MasterCard"> MasterCard</label>
+        <input type="checkbox" id="V" name="Visa" value="V">
+        <label for="Visa"> Visa</label>
+        </section><br>
+        <label for="CardN">Card Number:</label>
+        <input type="text" id="CardN" name="CardN"><br>
+        <label for="EDate">Expiration Date:</label>
+        <input type="text" id="EDate" name="EDate"><br>
+        <label for="CVCN">CVC Number:</label>
+        <input type="text" id="CVCN" name="CVCN"><br>
+        <label for="tempB">Choose amount you watn to give:</label><br />
+        <input type="range" id="money" name="money" list="values" min="0" max="20" value="10" step="5" />
+        <datalist id="values">
+            <option value="0" label="0$"></option>
+            <option value="5" label="5$"></option>
+            <option value="10" label="10$"></option>
+            <option value="15" label="15$"></option>
+            <option value="20" label="20$"></option>
+        </datalist><br>
+        <input id="submit"type="submit" value="Submit">
+      </form> 
+</main>
+</body>
+</html>
