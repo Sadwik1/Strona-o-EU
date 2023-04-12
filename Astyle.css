@@ -23,12 +23,19 @@ body{
     color: #FFFFFF;
     font-family: 'Lustria';
 }
-main{
 
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    margin: 5%;
+    margin-top: 2%;
+}
+section{
     font-size: 30px;
     text-align: center;
-    margin: 30%;
-    margin-top: 5%;
+    width: 60%;
     border-radius: 5%;
     background-color: #404040;
 }
@@ -37,4 +44,9 @@ h2{
 }
 h4{
     font-size: 35px;
+}
+img{
+    width: 30%;
+    background-color: #737373;
+    border-radius: 5%;
 }
