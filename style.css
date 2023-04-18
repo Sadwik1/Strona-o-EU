@@ -56,12 +56,23 @@ header{
     border-radius: 3%;
     
 }
-#heaNav{
+nav{
     flex-basis: 100%;
-    display: flex;
-    
+    display: grid;
+    grid-template-areas: 
+    "nav1 nav2 nav3";
+}
+#ANav1{
+grid-area: "nav1";
+}
+#ANav2{
+    grid-area: "nav2";  
+}
+#ANav3{
+    grid-area: "nav3"; 
 }
 a{
+    
     background: #404040;
     mix-blend-mode: screen;
     font-size: 75px;
@@ -71,6 +82,9 @@ a{
     border: 5px solid #737373;
     text-decoration: none;
 }
+a:hover {
+    background-color: #262626;
+  }
 body{
     background-color: #262626;
     color: #FFFFFF;
