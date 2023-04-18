@@ -21,7 +21,7 @@ grid-area: "nav1";
 a{
     background: #404040;
     mix-blend-mode: screen;
-    font-size: 75px;
+    font-size: 5rem;
     text-align: center;
     color: #FFFFFF;
     flex-basis: 100%;

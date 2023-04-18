@@ -4,7 +4,7 @@ main{
     flex-direction: column;
 }
 section{
-    font-size: 25px;
+    font-size: 1.5rem;
     flex-basis:  100%;
     background-color: #404040;
 }
@@ -15,23 +15,43 @@ article{
     padding: 1%;
 }
 #art1img1{
+    display: block;
     width: 20%;
 }
 #art2img1{
+    display: block;
     width: 30%;
 }
 #art3img1{
+    display: block;
     width: 25%;
 }
 #art3img2{
+    display: block;
    width: 15%;
    background-color: #FFFFFF;
 }
 #art4img1{
+    display: block;
     width: 35%;
     background-color: #5F5F5F;
     border-radius: 3%;
  }
+ #art5img1{
+    display: block;
+    width: 60%;
+    background-color: #5F5F5F;
+    border-radius: 3%;
+ }
+#art3sec1{
+    font-size: 1rem;
+}
+#art3sec2{
+    font-size: 1rem;
+}
+#art3sec3{
+    font-size: 1rem;
+}
 p{
     margin: 10px;
 }
@@ -53,9 +73,15 @@ header{
     
 }
 #art4sec1{
-    border-radius: 3%;
-    
-}
+    border-radius: 3%; 
+} 
+#art5sec1{
+    border-radius: 3%; 
+    text-align: center;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+} 
 nav{
     flex-basis: 100%;
     display: grid;
@@ -72,10 +98,9 @@ grid-area: "nav1";
     grid-area: "nav3"; 
 }
 a{
-    
     background: #404040;
     mix-blend-mode: screen;
-    font-size: 75px;
+    font-size: 5rem;
     text-align: center;
     color: #FFFFFF;
     flex-basis: 100%;
@@ -89,4 +114,13 @@ body{
     background-color: #262626;
     color: #FFFFFF;
     font-family: 'Lustria';
+}
+table{
+    align-self: center;
+    display: flex;
+    
+}
+table, th, td{
+    border: 5px solid #737373;
+    border-collapse: collapse;
 }
