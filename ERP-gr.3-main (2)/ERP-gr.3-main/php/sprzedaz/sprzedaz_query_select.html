@@ -1,0 +1,35 @@
+<form action="#" method="POST">
+    <label for="id">Wybierz kwerendę:</label>
+    <br>
+    <select name="id" id="select_id">
+        <option value="1">Pokaż najbardziej dochodową transakcję</option>
+        <option value="2">Pokaż najbardziej dochodowy produkt</option>
+        <option value="3">Pokaż liczbę transakcji między dwoma datami</option>
+        <option value="4">Pokaż wszystkie dochody między dwoma datami</option>
+    </select>
+    <br>
+    <label id="show" for="date1">Pierwsza data: </label>
+    <input id="show" type="date" name="date1">
+    <br>
+    <label id="show" for="date1">Druga data: </label>
+    <input id="show" type="date" name="date2">
+    <br>
+    <div id="fbts_end">
+        <input type="submit" class="fbts" value="Dodaj kwerende">
+        <input type="reset" class="fbts" value="Wyczyść">
+        </div>
+        <a id="back" id="backbtn"href="index.php">↶</a>
+        
+</form>
+<button onclick="funkcja1()">cos</button>
+    <script>
+            // document.getElementById('show').style.display = 'none';
+            document.getElementById("select_id").addEventListener("click", funkcja1);
+            function funkcja1(){
+            let asd = document.getElementById('select_id').options[document.getElementById('select_id').selectedIndex].value
+            console.log(asd);
+            if (asd == 1 || asd == 2){
+                document.getElementById('show').style.display = 'block';
+            }
+        }
+    </script>

@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/tlo.jpg");
+    background-repeat: no-repeat;
+    font-size: 1.5vw;
+    background-size: 100% 100%;
+    height: 100%;
+    color: violet;
+    width: 100%;
+    background-color: #212121;
+}
+
+header {
+    background-color: #212121;
+    color: violet;
+    width: 100%;
+    text-align: center;
+    height: 6vw;
+    font-size: 2.5vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    border-bottom: 0.5vw solid black;
+    margin-bottom: 2vw;
+}
+
+input {
+    padding: 0.5vw;
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #212121;
+    border: 0.2vw solid #ff00ff;
+    color: white;
+    border-radius: 2%
+}
+
+
+footer {
+    margin-top: 10.4vw;
+    background-color: #212121;
+    border-top: 0.5vw solid black;
+    width: 100%;
+    height: 4vw;
+    text-align: center;
+    color: violet;
+}
+
+footer>p {
+    margin-top: 0.9vw;
+}
+
+form {
+    margin: auto;
+    background-color: black;
+    width: 30vw;
+    padding: 2em;
+    border-radius: 10%;
+    -webkit-box-shadow: 10px 10px 28px 0px rgba(255, 0, 255, 1);
+    -moz-box-shadow: 10px 10px 28px 0px rgba(255, 0, 255, 1);
+    box-shadow: 10px 10px 28px 0px rgba(255, 0, 255, 1);
+    border: 0.5vw #ff00ff solid;
+}
+
+.fbts:hover {
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 55.4vh;
+}
+
+#fbts_end {
+    display: flex;
+    gap: 1vw;
+    justify-content: space-between;
+    margin-top: 3vw;
+}
+
+.fbts:hover {
+    scale: 1.1;
+    transition: .2s;
+}
+
+#backbtn {
+    background-color: black;
+    border: 0.5vw #ff00ff solid;
+    width: 5vw;
+    padding: 1em;
+    height: 0.5vh;
+    border-radius: 10%;
+    text-align: center;
+    margin: auto;
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#backbtn:hover {
+    -webkit-box-shadow: 10px 10px 28px 0px rgba(255, 0, 255, 1);
+    -moz-box-shadow: 10px 10px 28px 0px rgba(255, 0, 255, 1);
+    box-shadow: 10px 10px 28px 0px rgba(255, 0, 255, 1);
+    scale: 1.1;
+    transition: .2s;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: violet;
+}
+#show{
+    display: none;
+}
